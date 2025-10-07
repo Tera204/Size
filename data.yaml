@@ -1,0 +1,13 @@
+train: C:\identityCoin\My First Project.v2i.yolov8\train\images
+val: C:\identityCoin\My First Project.v2i.yolov8\valid\images
+test: C:\identityCoin\My First Project.v2i.yolov8\test\images
+
+nc: 5
+names: ['10 DOLLARS', '5 DOLLARS', '50 DOLLARS', 'CARD', 'ONE DOLLAR']
+
+roboflow:
+  workspace: yes123-h349e
+  project: my-first-project-uxiuk
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yes123-h349e/my-first-project-uxiuk/dataset/2
